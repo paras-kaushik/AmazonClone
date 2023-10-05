@@ -51,6 +51,6 @@
     - /api/admin/orders - adminOrderRoutes
 2. ## Naman Gupta
     - order flow
-    -
+    - Resolving bugs in cart flow
 3. ## Dipesh Sharma
     - User flow
