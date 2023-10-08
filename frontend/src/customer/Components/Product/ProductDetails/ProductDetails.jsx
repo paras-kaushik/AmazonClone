@@ -67,6 +67,7 @@ function classNames(...classes) {
 export default function ProductDetails() {
   const [selectedSize, setSelectedSize] = useState('S');
   const [activeImage, setActiveImage] = useState(null);
+  const [showSizeError, setShowSizeError] = useState(false);
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const { customersProduct,review } = useSelector((store) => store);
@@ -78,11 +79,22 @@ export default function ProductDetails() {
     setActiveImage(image);
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
     const data = { productId, size: selectedSize.name };
-    dispatch(addItemToCart({ data, jwt }));
-    navigate("/cart");
+    if(!data.size) {
+      setShowSizeError(true);
+    }
+    else {
+      dispatch(addItemToCart({ data, jwt }));
+      navigate("/cart");
+    }
   };
+
+  const handleSizeChange = (value) => {
+    setSelectedSize(value);
+    setShowSizeError(false);
+  }
 
   useEffect(() => {
     const data = { productId: productId, jwt };
@@ -215,7 +227,7 @@ export default function ProductDetails() {
 
                   <RadioGroup
                     value={selectedSize}
-                    onChange={setSelectedSize}
+                    onChange={handleSizeChange}
                     className="mt-4"
                   >
                     <RadioGroup.Label className="sr-only">
@@ -280,6 +292,7 @@ export default function ProductDetails() {
                       ))}
                     </div>
                   </RadioGroup>
+                  {showSizeError && <p style={{color: 'red'}}>Please select size!</p>}
                 </div>
 
                 <Button
