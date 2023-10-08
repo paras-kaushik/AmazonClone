@@ -42,15 +42,9 @@
 - order journey not working after "shipped"
 
 
-
-
-
-## Who is picking what (30 Sep)
-1. ## Paras Kaushik
-    - admin Flow
-    - /api/admin/orders - adminOrderRoutes
-2. ## Naman Gupta
-    - order flow
-    - Resolving bugs in cart flow
-3. ## Dipesh Sharma
-    - User flow
+# Tasks
+- Add dummy creds option for user & Admin, pre-signIn bugs -- Naman
+- Update cart before checkout -- Paras
+- Cart after checkout, order journey -- Dipesh
+- My Profile & My Order components -- Naman
+- On Login, if user is admin redirect to /admin page -- Naman
