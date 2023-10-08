@@ -16,7 +16,7 @@ const CartItem = ({ item,showButton }) => {
   };
   const handleUpdateCartItem=(num)=>{
     const data={data:{quantity:item.quantity+num}, cartItemId:item?._id, jwt}
-    console.log("update data ",data)
+    window.location.reload()
     dispatch(updateCartItem(data))
   }
   return (
@@ -51,7 +51,7 @@ const CartItem = ({ item,showButton }) => {
           </IconButton>
 
           <span className="py-1 px-7 border rounded-sm">{item?.quantity}</span>
-          <IconButton onClick={()=>handleUpdateCartItem(1)} color="primary" aria-label="add an alarm">
+          <IconButton onClick={()=>handleUpdateCartItem(1)} disabled={item?.quantity>=item?.product?.quantity} color="primary" aria-label="add an alarm">
             <AddCircleOutlineIcon />
           </IconButton>
         </div>
