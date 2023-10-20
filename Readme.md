@@ -86,6 +86,25 @@ We can see models of the system will include :
 
 [![](./images/2023-10-20-18-11-49.png) ](https://lucid.app/lucidchart/32e970c4-ed5b-4860-87ff-8a444c2b165a/edit?viewport_loc=-3917%2C-4197%2C5033%2C2607%2C0_0&invitationId=inv_ef927ea7-00c2-4387-acfd-cacf78c25e5b)
 
+### Demo
+#### Home Page
+![](./images/2023-10-20-18-31-47.png)
+![](./images/2023-10-20-18-32-22.png)
+#### Products Page
+![](./images/2023-10-20-18-32-55.png)
+#### Login/Sign-in modal
+![](./images/2023-10-20-18-33-31.png)
+#### Cart
+![](./images/2023-10-20-18-35-26.png)
+#### Checkout
+![](./images/2023-10-20-18-35-48.png)
+![](./images/2023-10-20-18-37-15.png)
+#### Admin Dashboard
+![](./images/2023-10-20-18-38-14.png)
+#### Admin Orders
+![](./images/2023-10-20-18-39-05.png)
+
+
 ### APIs
 
 | **Service API** | **Description** |
