@@ -1,3 +1,4 @@
+# Amazon Shopping and Inventory Management Clone
 ### Blog Item
 - https://paraskaushik.hashnode.dev/low-level-design-for-amazon-shopping
 ### Requirements
