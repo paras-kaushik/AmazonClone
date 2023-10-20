@@ -1,3 +1,5 @@
+### Blog Item
+- https://paraskaushik.hashnode.dev/low-level-design-for-amazon-shopping
 ### Requirements
 
 * **User Authentication:**
@@ -77,12 +79,12 @@ We can see models of the system will include :
 
 10. Order Item
 
-    [![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697802418204/94220368-abde-400f-8c36-8cb120c42777.png align="center")](https://lucid.app/lucidchart/32e970c4-ed5b-4860-87ff-8a444c2b165a/edit?viewport_loc=-3917%2C-4197%2C5033%2C2607%2C0_0&invitationId=inv_ef927ea7-00c2-4387-acfd-cacf78c25e5b)
+    [![](./images/2023-10-20-18-08-39.png)](https://lucid.app/lucidchart/32e970c4-ed5b-4860-87ff-8a444c2b165a/edit?viewport_loc=-3917%2C-4197%2C5033%2C2607%2C0_0&invitationId=inv_ef927ea7-00c2-4387-acfd-cacf78c25e5b)
 
 
 ### Service Identification
 
-[![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697804273989/0a45673f-3afb-47a5-bd2e-4e565cddc953.png align="center")](https://lucid.app/lucidchart/32e970c4-ed5b-4860-87ff-8a444c2b165a/edit?viewport_loc=-3917%2C-4197%2C5033%2C2607%2C0_0&invitationId=inv_ef927ea7-00c2-4387-acfd-cacf78c25e5b)
+[![](./images/2023-10-20-18-11-49.png) ](https://lucid.app/lucidchart/32e970c4-ed5b-4860-87ff-8a444c2b165a/edit?viewport_loc=-3917%2C-4197%2C5033%2C2607%2C0_0&invitationId=inv_ef927ea7-00c2-4387-acfd-cacf78c25e5b)
 
 ### APIs
 
